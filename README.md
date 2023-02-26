@@ -1,8 +1,8 @@
 # react-ts-vite-tw-vitest-twmarco-eslintairbnb-starter
-this project provide
--typescript
--vite
--tailwindcss
--vitest & testing-library(jestdom)
--twinmarco & emotional for styled component with tailwind
--setting eslint by airbnb & prettier
+this project provide <br />
+-typescript <br />
+-vite <br />
+-tailwindcss <br />
+-vitest & testing-library(jestdom) <br />
+-twinmarco & emotional for styled component with tailwind <br />
+-setting eslint by airbnb & prettier <br />
