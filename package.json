@@ -10,7 +10,9 @@
     "test": "vitest",
     "lint": "eslint ./src",
     "lint:debug": "eslint ./src --debug",
-    "lint:fix": "eslint ./src --fix"
+    "lint:fix": "eslint ./src --fix",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "@emotion/react": "^11.10.6",
@@ -22,7 +24,15 @@
     "twin.macro": "^3.1.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.21.0",
     "@emotion/babel-plugin": "^11.10.6",
+    "@storybook/addon-actions": "^6.5.16",
+    "@storybook/addon-essentials": "^6.5.16",
+    "@storybook/addon-interactions": "^6.5.16",
+    "@storybook/addon-links": "^6.5.16",
+    "@storybook/builder-vite": "^0.4.2",
+    "@storybook/react": "^6.5.16",
+    "@storybook/testing-library": "^0.0.13",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^14.0.0",
     "@types/react": "^18.0.27",
@@ -31,6 +41,7 @@
     "@typescript-eslint/parser": "^5.53.0",
     "@vitejs/plugin-react-swc": "^3.0.0",
     "autoprefixer": "^10.4.13",
+    "babel-loader": "^8.3.0",
     "eslint": "^8.2.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-typescript": "^17.0.0",
@@ -40,6 +51,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-storybook": "^0.6.11",
     "eslint-plugin-tailwindcss": "^3.9.0",
     "jsdom": "^21.1.0",
     "postcss": "^8.4.21",
